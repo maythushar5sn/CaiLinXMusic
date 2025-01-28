@@ -91,7 +91,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 ✧────✦ ᴡᴇʟᴄᴏᴍᴇ ✦────✧
 ➖➖➖➖➖➖➖➖➖➖➖
 **๏ ᴄʜᴀᴛ ✧ **`{member.chat.title}`
-**๏ ɴᴀᴍᴇ ✧ **>{user.mention}>
+**๏ ɴᴀᴍᴇ ✧ **'> {user.mention}'
 **๏ ɪᴅ ✧ **`{user.id}`
 **๏ ᴜꜱᴇʀɴᴀᴍᴇ ✧ **@{user.username}
 **➖➖➖➖➖➖➖➖➖➖➖**
